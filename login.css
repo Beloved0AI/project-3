@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-group{ margin: 20px 0; }
+
+input{ height: 30px; width: 100%; padding: 5px; }
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(./earth.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.wrapper {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+.wrapperup{
+    position: relative;
+    width: 420px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapperup .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+
+h2 {
+font-size: 36px;
+text-align: center;
+}
+
+form .form-group {
+  position: relative;  
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.form-group input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-group input::placeholder {
+    color: #a7a1a1;
+    text-align: justify;
+}
+/*-- Sign in button ----*/
+form button {
+width: 100%;
+height: 45px;
+background: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 700;
+}
+
+/*--- Sign up paragraph ----*/
+p{
+    font-size: 15px;
+    text-align: center;
+}
+p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+p a:hover {
+    text-decoration: underline;
+}
